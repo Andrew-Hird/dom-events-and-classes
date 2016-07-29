@@ -47,11 +47,11 @@ function updateCounts () {
 
 var num = document.getElementsByClassName('board')[0].children
     for (var i = 0; i < num.length; i++){
-      if (num[i].classList.contains('blue') === true) {
+      if (num[i].classList.contains('blue')) {
         totals.blue += 1
-      } else if (num[i].classList.contains('green') === true) {
+      } else if (num[i].classList.contains('green')) {
         totals.green +=1
-      } else if (num[i].classList.contains('invisible') === true) {
+      } else if (num[i].classList.contains('invisible')) {
         totals.invisible +=1
       }
     }
